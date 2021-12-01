@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeus.BoardingPassSorter.WebApi", "Zeus.BoardingPassSorter.WebApi\Zeus.BoardingPassSorter.WebApi.csproj", "{8AB8B7BD-F2CB-4B4E-A327-DF4EC62D054E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A712DD4F-15E7-4D09-BFE7-130BC5678679}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C85F12F5-1E79-48BB-9CA6-E7775469E588}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4C890DF0-7883-492E-AB91-8438966A2D14}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeus.BoardingPassSorter.WebApi.Tests", "Zeus.BoardingPassSorter.WebApi.Tests\Zeus.BoardingPassSorter.WebApi.Tests.csproj", "{084F734E-83DD-4A72-BFF0-48E9629F4977}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AB8B7BD-F2CB-4B4E-A327-DF4EC62D054E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB8B7BD-F2CB-4B4E-A327-DF4EC62D054E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB8B7BD-F2CB-4B4E-A327-DF4EC62D054E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB8B7BD-F2CB-4B4E-A327-DF4EC62D054E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{084F734E-83DD-4A72-BFF0-48E9629F4977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{084F734E-83DD-4A72-BFF0-48E9629F4977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{084F734E-83DD-4A72-BFF0-48E9629F4977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{084F734E-83DD-4A72-BFF0-48E9629F4977}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8AB8B7BD-F2CB-4B4E-A327-DF4EC62D054E} = {A712DD4F-15E7-4D09-BFE7-130BC5678679}
+		{084F734E-83DD-4A72-BFF0-48E9629F4977} = {C85F12F5-1E79-48BB-9CA6-E7775469E588}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43B6C24B-8ED4-4CF3-8FF8-C5ED7784B66B}
+	EndGlobalSection
+EndGlobal
